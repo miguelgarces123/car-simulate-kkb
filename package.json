@@ -1,0 +1,27 @@
+{
+  "name": "simulador-avalltex",
+  "version": "1.0.0",
+  "description": "Simulador de loans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "avalltex"
+  ],
+  "author": "Miguel Garces",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "global-agent": "^2.2.0",
+    "graphql-request": "^2.1.0-next.1",
+    "moment": "^2.27.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
